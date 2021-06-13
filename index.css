@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+margin: 0;
+padding: 0;
+
+color: white;
+}
+.background{
+    background: url('img/bg4.png');
+    height: 110vh;
+    
+    
+}
+
+
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 6px;
+    display: flex;
+}
+.left img{
+    width: 60px;
+    height: 60px;
+    filter: invert(100%);
+}
+.logotext{
+    padding-top: 20px;
+    padding-left: 5px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.middle{
+    
+    display: block;
+    width: 50%;
+    margin:0px auto;
+    padding-top: 8vh;
+}
+.right{
+    display: inline-block;
+    
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 13px;
+    font-size: 21px;
+    cursor: pointer;
+}
+.navbar li a{
+    text-decoration: none;
+    
+}
+.navbar li a:hover, .navbar li a:active{
+text-decoration: underline;
+color: red;
+}
+.btn{
+    
+    height: 30px;
+    width:80px ;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background: red;
+    color: white;
+}
+
+.main{
+    position: absolute;
+    height: 200px;
+    top: 250px;
+    right: 100px;
+   
+    
+    
+}
+.main span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    padding:10px 0px;
+    background-color: red;
+    
+}
+.para{
+    text-align: left;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.btnn{
+    position: absolute;
+    right: 100px;
+    padding-top: 15px;
+    
+    
+}
+/*services*/
+
+.first{
+    border: 6px solid white;
+    position:absolute;
+    top: 180px;
+    left: 20px;
+    width: 21%;
+    height: 67vh;
+    
+}
+.second{
+    border: 6px solid white;
+    position:absolute;
+    top: 180px;
+    left: 330px;
+    width: 21%;
+    height: 67vh;
+}
+.third{
+    border: 6px solid white;
+    position:absolute;
+    top: 180px;
+    
+    left: 640px;
+    width: 21%;
+    height: 67vh;
+}
+.fourth{
+    border: 6px solid white;
+    position:absolute;
+    top: 180px;
+    left: 940px;
+    width: 21%;
+    height: 67vh;
+}
+
+.services h3{
+    text-align: center;
+    background-color: white;
+    color: red;
+}
+.services h1{
+    padding-top: 0px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    position: absolute;
+    width: 15%;
+    height: 5vh;
+    text-align: center;
+    font-size: 28px;
+    top: 16vh;
+    left: 85vh;
+}
+.services h1:hover{
+opacity: 70%;
+color: red;
+}
+.one:hover{
+    opacity: 70%;
+cursor: pointer;
+border-color: red;
+}
+
+
+.services img{
+width: 90%;
+margin: 6px auto;
+border: 3px solid white;
+position: absolute;
+left:10px;
+border-radius: 10px;
+}
+.services ul{
+    text-align: left;
+    margin-top: 200px;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+.services li{
+    list-style: none;
+}
+
+/*courses*/
+
+.course1{
+    
+    position:absolute;
+    top: 15vh;
+left: 3vh;
+    width: 30%;
+    height: 40vh;
+}
+.course2{
+    
+    position:absolute;
+    top: 15vh;
+left: 71vh;
+    width: 30%;
+    height:40vh;
+}
+.course3{
+  
+    position:absolute;
+    top: 15vh;
+left: 140vh;
+    width: 30%;
+    height: 40vh;
+}
+.course4{
+    
+    position:absolute;
+    top: 60vh;
+left: 3vh;
+    width: 30%;
+    height: 40vh;
+}
+.course5{
+    
+    position:absolute;
+    top: 60vh;
+left: 71vh;
+    width: 30%;
+    height: 40vh;
+}
+.course6{
+    
+    position:absolute;
+    top: 60vh;
+left: 140vh;
+    width: 30%;
+    height: 40vh;
+}
+.courselist img{
+    width: 100%;
+
+}
+.viewdetails{
+    align-items: center;
+    position: absolute;
+    left: 25vh;
+    color: black;
+    width: 100px;
+}
+.courselist:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+/*contact*/
+
+.contactus{
+
+    
+    position: absolute;
+    margin: 10vh 50vh;
+    height: 80vh;
+    width: 70%;
+}
+.form{
+    position: absolute;
+    top: 40px;
+    width: 98%;
+    height: 70vh;
+    
+    
+    
+}
+.formtext
+{
+  font-size: 25px;
+  padding: 10px;
+  color: black;
+}
+.form input{
+    width: 600px;
+    color: black;
+    padding-left: 20px;
+    height: 20px;
+}
+.form input:hover{
+    color: white;
+    background: red;
+}
+.contactus h1{
+    text-align: center;
+}
+
+.message textarea{
+    height: 100px;
+    width: 100%;
+    color: black;
+}
+.message textarea:hover{
+    color: white;
+    background: red;
+}
+#choose option{
+    color: white;
+
+}
+#choose{
+    color: black;
+    width: 150px;
+    height: 5vh;
+}
+#choose:hover{
+    color: white;
+    background: red;
+}
+.btn-submit{
+    position: absolute;
+    right: 5vh;
+    width: 90px;
+}
+#email{
+margin-left: 95px;
+}
+#phone{
+    margin-left: 5px;
+}
+#name{
+margin-left: 50px;
+}
+.thought h2{
+    border: 2px solid red;
+    position: absolute;
+    left: 8vh;
+    top: 32vh;
+    height: 30vh;
+    font-size: 30px;
+    padding: 50px;
+}
+.thought h2:hover{
+    background: red;
+    color: white;
+    border: 3px solid white;
+}
+
+/*footer*/
+.bgfooter{
+    background-color: grey;
+    height: 30vh;
+   
+}
+
+
+.leftfooter{
+    
+    position: absolute;
+    left: 40px;
+    width: 35%;
+    height: 20vh;
+
+}
+.rightfooter{
+    
+    position: absolute;
+    right: 75vh;
+    width: 13%;
+    height: 20vh;
+    
+}
+.socialicons{
+    
+    position: absolute;
+    
+    
+}
+
+.socialicons a{
+    padding: 30px;
+    font-size: 80px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+#fb:hover{
+    color: blue;
+}
+#in:hover{
+    color: violet;
+}
+#yt:hover{
+    color: red;
+}
+#tw:hover{
+    color: skyblue;
+}
+#lc:hover{
+    color: green;
+}
+.right2footer{
+    position: absolute;
+   
+    height: 20vh;
+    right: 50vh;
+}
+.right2footer h3{
+    text-align: center;
+    margin: 8vh auto;
+}
+.rright{
+    position: absolute;
+    right: 90vh;
+    
+    margin:25vh auto ;
+    font-size: 17px;
+}
